@@ -132,7 +132,7 @@ function ResumeWebsite() {
                 <p className="text-gray-400">{job.company} | {job.duration}</p>
                 <ul className="list-disc list-inside mt-4 text-left space-y-2">
                   {job.details.map((detail, i) => (
-                    <li key={i} className="text-gray-300">
+                    <li key={i} className={`${isDarkMode ? "text-gray-300": "text-gray-500"}`}>
                       {detail}
                     </li>
                   ))}
@@ -166,7 +166,7 @@ function ResumeWebsite() {
             <p className={`${isDarkMode ? "text-gray-400" : "text-gray-600"}`}>
               Umm Al Qura University, Saudi Arabia
             </p>
-            <p className="text-gray-300 mt-2">10/2018 - 02/2023 | GPA: 3.82/4.0</p>
+            <p className={"mt-2"}>10/2018 - 02/2023 | GPA: 3.82/4.0</p>
           </motion.div>
         </div>
       </section>
