@@ -143,6 +143,46 @@ function ResumeWebsite() {
         </div>
       </section>
 
+
+
+
+      {/* Master's degree Education Section */}
+      <section
+        className={`${
+          isDarkMode ? "bg-gray-700" : "bg-gray-100"
+        } py-16`}
+      >
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-4xl font-bold mb-12">Education</h2>
+          <motion.div
+            className={`w-full max-w-2xl mx-auto p-8 rounded-lg shadow-lg ${
+              isDarkMode ? "bg-gray-800" : "bg-white"
+            }`}
+            whileHover={{ scale: 1.05 }}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <h3 className="text-3xl font-bold text-teal-500">
+              Master's of Computer Networks
+            </h3>
+            <p className={`${isDarkMode ? "text-gray-400" : "text-gray-600"}`}>
+              King Fahd University of Petroleum and Minerals (KFUPM) University, Saudi Arabia
+            </p>
+            <p className={"mt-2"}>08/2025 - Current</p>
+          </motion.div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
       {/* Education Section */}
       <section
         className={`${
