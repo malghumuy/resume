@@ -190,7 +190,6 @@ function ResumeWebsite() {
         } py-16`}
       >
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-12">Education</h2>
           <motion.div
             className={`w-full max-w-2xl mx-auto p-8 rounded-lg shadow-lg ${
               isDarkMode ? "bg-gray-800" : "bg-white"
