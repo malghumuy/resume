@@ -24,7 +24,7 @@ function ResumeWebsite() {
       >
         <div className="container mx-auto px-4">
           <h1 className="text-5xl font-extrabold">Mohammed Alghumuy</h1>
-          <p className="text-lg mt-4">Software Engineer | Creative Problem Solver</p>
+          <p className="text-lg mt-4">Software Engineer</p>
           <div className="flex justify-center mt-6 space-x-4">
             <a
               href="mailto:malghumuy@hotmail.com"
